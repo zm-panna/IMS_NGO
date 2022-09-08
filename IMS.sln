@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS", "IMS\IMS.csproj", "{8296D3B5-33CE-46A1-9DAB-140C00392395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.Models", "IMS.Models\IMS.Models.csproj", "{AEDFBEAB-8D7E-4DCF-A0F7-EBF561167C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.BLL", "IMS.BLL\IMS.BLL.csproj", "{A6F88ADB-09BB-427B-962D-3FAC9D05B92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.DAL", "IMS.DAL\IMS.DAL.csproj", "{47AE8A5A-D044-4E7F-82F6-5515D7232222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FEDD6FCA-00EF-434D-B521-42CE1FB79297}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zmpanna.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IMS.BLL\\IMS.BLL.csproj
+		SccProjectName1 = IMS.BLL
+		SccLocalPath1 = IMS.BLL
+		SccProjectUniqueName2 = IMS.DAL\\IMS.DAL.csproj
+		SccProjectName2 = IMS.DAL
+		SccLocalPath2 = IMS.DAL
+		SccProjectUniqueName3 = IMS.Models\\IMS.Models.csproj
+		SccProjectName3 = IMS.Models
+		SccLocalPath3 = IMS.Models
+		SccProjectUniqueName4 = IMS\\IMS.csproj
+		SccProjectName4 = IMS
+		SccLocalPath4 = IMS
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8296D3B5-33CE-46A1-9DAB-140C00392395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8296D3B5-33CE-46A1-9DAB-140C00392395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8296D3B5-33CE-46A1-9DAB-140C00392395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8296D3B5-33CE-46A1-9DAB-140C00392395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDFBEAB-8D7E-4DCF-A0F7-EBF561167C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDFBEAB-8D7E-4DCF-A0F7-EBF561167C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDFBEAB-8D7E-4DCF-A0F7-EBF561167C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDFBEAB-8D7E-4DCF-A0F7-EBF561167C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F88ADB-09BB-427B-962D-3FAC9D05B92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F88ADB-09BB-427B-962D-3FAC9D05B92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F88ADB-09BB-427B-962D-3FAC9D05B92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F88ADB-09BB-427B-962D-3FAC9D05B92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AE8A5A-D044-4E7F-82F6-5515D7232222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AE8A5A-D044-4E7F-82F6-5515D7232222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AE8A5A-D044-4E7F-82F6-5515D7232222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AE8A5A-D044-4E7F-82F6-5515D7232222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
